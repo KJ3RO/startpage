@@ -14,7 +14,7 @@ input.addEventListener("keydown", function (e) {
     render(`<span class="red">$&nbsp;</span>${input.value}`);
     try {
       const commandDetails = commands.find((c) =>
-        c.name.map((n) => n.toLowerCase()).includes(command)
+        c.name.map((n) => n.toLowerCase()).includes(command),
       );
       if (commandDetails) {
         if (command === "help") commandDetails.execute(commands);
@@ -39,11 +39,8 @@ input.addEventListener("keydown", function (e) {
 window.addEventListener("load", () => {
   executors.ls();
   executors.motd();
-  let filenames = ["purple-mountains.jpg"];
   let root = document.getElementsByTagName("html")[0];
-  root.style.backgroundImage = `url("./backgrounds/${
-    filenames[Math.floor(Math.random() * filenames.length)]
-  }")`;
+  root.style.backgroundImage = `url("../backgrounds/tokyostreet.png")`;
   root.style.backgroundSize = "cover";
   root.style.backgroundPosition = "center";
 });

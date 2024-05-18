@@ -1,44 +1,34 @@
 export default [
   {
-    category: "Dev",
+    category: "Soul",
     color: "cyan",
     items: {
-      Github: "https://github.com",
-      AWS: "https://aws.amazon.com",
-      "Dev.to": "https://dev.to",
-      Firebase: "https://console.firebase.google.com/u/0",
+      Github: "https://github.com/KJ3RO",
     },
   },
   {
-    category: "School",
+    category: "Edu",
     color: "red",
     items: {
-      Outlook: "https://outlook.office365.com/mail/inbox",
-      Canvas: "https://sit.instructure.com",
-      MyStevens: "https://login.stevens.edu/app/UserHome",
+      "Google Classroom": "https://classroom.google.com/u/1/h",
+      "AP Classroom": "https://apstudents.collegeboard.org/",
+      Wikipedia: "https://en.wikipedia.org/wiki/Main_Page",
     },
   },
   {
-    category: "Work",
+    category: "Corp",
     color: "green",
     items: {
       Linkedin: "https://linkedin.com",
-      Twitter: "https://twitter.com",
-      Leetcode: "https://leetcode.com",
-      Handshake: "https://app.joinhandshake.com/stu/postings",
-      Indeed: "https://www.indeed.com/",
     },
   },
   {
-    category: "Misc",
+    category: "SubReddits",
     color: "purple",
     items: {
-      Trakt: "https://trakt.tv/users/peterrauscher/lists",
-      YouTube: "https://www.youtube.com/",
-      Fmovies: "https://fmovies.to/home",
-      Zoro: "https://zoro.to",
-      TempMail: "https://tempmail.email/",
-      // IPTorrents: "https://iptorrents.com/t",
+      Unixporn: "https://www.reddit.com/r/unixporn/",
+      Neovim: "https://www.reddit.com/r/neovim/",
+      Macapps: "https://www.reddit.com/r/macapps/",
     },
   },
 ];

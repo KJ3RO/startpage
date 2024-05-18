@@ -1,24 +1,24 @@
 @font-face {
-  font-family: "Hack";
-  src: local("Hack Regular"), url("ttf/Hack-Regular.ttf");
+  font-family: "FiraMono";
+  src: local("FiraMono Regular"), url("ttf/FiraMono-Regular.otf");
 }
 
 :root {
-  --bg: #1a1b26;
-  --fg: #c0caf5;
-  --black: #15161e;
-  --red: #f7768e;
-  --green: #9ece6a;
-  --yellow: #e0af68;
-  --blue: #7aa2f7;
-  --purple: #bb9af7;
-  --cyan: #7dcfff;
-  --light-gray: #a9b1d6;
-  --gray: #414868;
+  --bg: #0e1019;
+  --fg: #dcd7ba;
+  --black: #16161d;
+  --red: #c34043;
+  --green: #76946a;
+  --yellow: #c0a36e;
+  --blue: #7e9cd8;
+  --purple: #957fb8;
+  --cyan: #6a9589;
+  --light-gray: #54546d;
+  --gray: #9caaca;
 }
 
 html {
-  font-family: "Hack", monospace;
+  font-family: "FiraMono", monospace;
   text-align: center;
   color: var(--fg);
   background-color: var(--gray);
